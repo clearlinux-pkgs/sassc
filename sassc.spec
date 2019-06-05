@@ -4,7 +4,7 @@
 #
 Name     : sassc
 Version  : 3.5.0
-Release  : 3
+Release  : 4
 URL      : https://github.com/sass/sassc/archive/3.5.0.tar.gz
 Source0  : https://github.com/sass/sassc/archive/3.5.0.tar.gz
 Summary  : No detailed summary available
