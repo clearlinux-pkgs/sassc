@@ -4,7 +4,7 @@
 #
 Name     : sassc
 Version  : 3.6.1
-Release  : 6
+Release  : 7
 URL      : https://github.com/sass/sassc/archive/3.6.1/sassc-3.6.1.tar.gz
 Source0  : https://github.com/sass/sassc/archive/3.6.1/sassc-3.6.1.tar.gz
 Summary  : No detailed summary available
@@ -47,7 +47,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1586220654
+export SOURCE_DATE_EPOCH=1588653229
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
@@ -60,7 +60,7 @@ export CXXFLAGS="$CXXFLAGS -O3 -ffat-lto-objects -flto=4 "
 make  %{?_smp_mflags}
 
 %install
-export SOURCE_DATE_EPOCH=1586220654
+export SOURCE_DATE_EPOCH=1588653229
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/sassc
 cp %{_builddir}/sassc-3.6.1/LICENSE %{buildroot}/usr/share/package-licenses/sassc/4d640cc322117dec7f97632e6ed4319131a16ad2
