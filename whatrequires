@@ -1,6 +1,8 @@
 # This file contains recursive sources that require this package
-arc-theme
 breeze-gtk
 gnome-shell
+gnome-todo
 gtk3
-plata-theme
+gtk4
+kde-gtk-config
+libadwaita
